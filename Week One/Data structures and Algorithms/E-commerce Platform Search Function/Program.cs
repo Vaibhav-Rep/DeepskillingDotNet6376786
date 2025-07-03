@@ -32,7 +32,6 @@ namespace EcommercePlatformSearchFunction
 
 
 
-
             Console.WriteLine($"\n Performing Binary Search for {keyword}");
             var sortedProducts = products.OrderBy(p => p.ProductName).ToArray();
             var result2 = SearchAlgorithms.BinarySearch(sortedProducts, keyword);

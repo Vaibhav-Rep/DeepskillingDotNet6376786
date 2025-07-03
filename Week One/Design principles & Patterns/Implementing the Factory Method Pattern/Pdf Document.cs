@@ -19,4 +19,5 @@ namespace FactoryMethodPatternExample
             Console.WriteLine("Closing PDF Document");
         }
     }
+    
 }

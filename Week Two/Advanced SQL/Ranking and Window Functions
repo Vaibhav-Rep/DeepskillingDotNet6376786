@@ -67,7 +67,6 @@ WHERE RankNum <= 3;
 
 
 
-
 -- DENSE_RANK()
 --It Shows how DENSE_RANK() works i.e no skipping ranks after ties.
 SELECT

@@ -17,7 +17,6 @@ namespace EcommercePlatformSearchFunction
         {
             int left = 0, right = products.Length - 1;
 
-
             while (left <= right)
             {
                 int mid = (left + right) / 2;

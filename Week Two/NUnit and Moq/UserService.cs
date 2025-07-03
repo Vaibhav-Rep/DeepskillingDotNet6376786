@@ -5,7 +5,6 @@ namespace MyApp.Services
         User GetUserById(int id);
     }
 
-
     public class User
     {
         public int Id { get; set; }

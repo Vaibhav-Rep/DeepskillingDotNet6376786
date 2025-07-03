@@ -22,7 +22,6 @@ namespace FinancialForecasting
         } */
    
 
-
         public static double GetAverageGrowth(double[] pastRates)
         {
             double sum = 0;

@@ -9,7 +9,6 @@ namespace FinancialForecasting
         static void Main(string[] args)
         {
 
-
             // Note using average growth rate from past 10 years but is not realistic to realworld
 
 

@@ -37,7 +37,6 @@ namespace MyApp.Tests
             Assert.AreEqual("Alice", result);
         }
 
-
         [Test]
         public void GetUserName_UserDoesNotExist_ReturnsUnknownUser()
         {

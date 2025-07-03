@@ -14,7 +14,6 @@ namespace EcommercePlatformSearchFunction
             Category = category;
         }
 
-
         public override string ToString()
         {
             return $"{ProductId} - {ProductName} ({Category})";

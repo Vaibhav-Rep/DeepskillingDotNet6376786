@@ -18,7 +18,7 @@ namespace FactoryMethodPatternExample
             pdfDoc.Modify();
             pdfDoc.Save();
             pdfDoc.Close();
-           
+
             DocumentFactory excelFactory = new ExcelDocumentFactory();
             IDocument excelDoc = excelFactory.CreateDocument();
             excelDoc.Open();
@@ -27,4 +27,6 @@ namespace FactoryMethodPatternExample
             excelDoc.Close();
         }
     }
+    
 }
+

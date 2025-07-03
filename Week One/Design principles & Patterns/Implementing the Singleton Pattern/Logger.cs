@@ -13,6 +13,5 @@ namespace SingletonPatternExample{
             return _instance;
         }
 
-
     }
 }
