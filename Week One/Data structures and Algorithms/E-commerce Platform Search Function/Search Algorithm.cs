@@ -24,3 +24,7 @@ namespace EcommercePlatformSearchFunction
 
 
                 if (comparison == 0)
+            }
+        }
+    }
+}

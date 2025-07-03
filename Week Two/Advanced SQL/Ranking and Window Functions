@@ -80,7 +80,6 @@ SELECT
     ) AS DenseRankNum
 FROM Products;
 
-
 --This gets top 3 dense ranks per category, ensuring no gaps in ranking.
 WITH RankedProducts AS (
     SELECT *,

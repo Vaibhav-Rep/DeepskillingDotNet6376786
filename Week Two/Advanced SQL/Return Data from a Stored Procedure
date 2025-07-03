@@ -13,7 +13,6 @@ CREATE TABLE Employees (
     JoinDate DATE
 );
 
-
 --a stored procedure to count the number of employees in the specified department.
 CREATE PROCEDURE sp_GetEmployeeCountByDepartment
 @DepartmentID INT
