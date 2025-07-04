@@ -3,7 +3,6 @@ CREATE TABLE Departments (
     DepartmentName VARCHAR(100)
 );
 
-
 --Employees Table Schema
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
@@ -13,7 +12,6 @@ CREATE TABLE Employees (
     Salary DECIMAL(10,2),
     JoinDate DATE
 );
-
 -- 1. a stored procedure to select employee details based on the DepartmentID.
 CREATE PROCEDURE sp_GetEmployeesByDepartmentID
 @DepartmentID INT

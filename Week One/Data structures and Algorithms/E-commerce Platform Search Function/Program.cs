@@ -16,7 +16,6 @@ namespace EcommercePlatformSearchFunction
 
 
 
-
             Console.Write("Enter search keyword: ");
             string keyword = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(keyword))
