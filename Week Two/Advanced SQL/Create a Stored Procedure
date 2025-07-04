@@ -3,7 +3,6 @@ CREATE TABLE Departments (
     DepartmentName VARCHAR(100)
 );
 
-
 --Employees Table Schema
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
