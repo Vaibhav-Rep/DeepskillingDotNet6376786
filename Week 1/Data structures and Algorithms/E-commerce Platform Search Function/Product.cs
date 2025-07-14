@@ -6,7 +6,6 @@ namespace EcommercePlatformSearchFunction
         public string ProductName { get; set; }
         public string Category { get; set; }
 
-
         public Product(int id, string name, string category)
         {
             ProductId = id;
